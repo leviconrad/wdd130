@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Smooch+Sans:wght@100&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    background-color: #131313;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9{
+    position: relative;
+    /*opacity: 0.65;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: url("images/dan-meyers-ThGkMFiIJ8o-unsplash.jpg");
+    min-height: 600px;
+}
+
+.bgimg-2 {
+    background-image: url("images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg");
+    min-height: 600px;
+}
+
+.bgimg-3 {
+    background-image: url("images/rohan-makhecha-jw3GOzxiSkw-unsplash.jpg");
+    min-height: 600px;
+}
+
+.bgimg-4 {
+    background-image: url("images/nasa-_SFJhRPzJHs-unsplash.jpg");
+    min-height: 600px;
+}
+
+.bgimg-5 {
+    background-image: url("images/israel-palacio-ImcUkZ72oUs-unsplash.jpg");
+    min-height: 600px;
+} 
+
+.bgimg-6 {
+    background-image: url("images/fission_reactor_night.jpg");
+    min-height: 600px;
+}
+
+.bgimg-7 {
+    background-image: url("images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    min-height: 800px;
+}
+
+.bgimg-8 {
+    background-image: url("images/nasa-rTZW4f02zY8-unsplash.jpg");
+    min-height: 800px;
+}
+
+.bgimg-9 {
+    background-image: url("images/rm373batch15-bg-05.jpg");
+    min-height: 800px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-img-page2 {
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    /*background-color: #282E34;*/
+    background-color: #131313;
+    font-family: "Exo 2", "Arial",  "sans-serif";
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #F5EFED;
+    color: #282E34;
+}
+
+nav a {
+    text-align:center;
+    color: #2292A4;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-title-home {
+    /*background-color: #282E34;*/
+    background-color: #131313;
+    text-align:center;
+    padding:50px 80px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Exo 2" , "Smooch Sans" , "sans-serif";
+    color: #2292A4;
+    font-size: 50px;
+}
+
+.sub-text-home {
+    font-family: "Exo 2" , "Smooch Sans" , "sans-serif";
+    color: #F5EFED;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.page1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bgimg-6 {
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.sub-title-page1-1, .sub-text-page1-1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.bgimg-7 {
+    grid-row: 3/4;
+}
+
+.sub-title-page1-1, .sub-text-page1-2 {
+    grid-row: 4/5;
+}
+
+.rural-alaska-text {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.rural-alaska-img {
+    width: 100%;
+    grid-column: 2/3;
+    border: solid;
+    border-radius: 5%;
+    border-color: #131313;
+}
+
+.bgimg-8 {
+    grid-row: 6/7;
+    grid-column: 1/3;
+}
+
+.sub-text-page1-3 {
+    grid-row: 7/8;
+    grid-column: 1/3;
+} */
+
+.rural-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rural-alaska-text {
+    grid-column: 1/2;
+}
+
+.rural-alaska-img {
+    grid-column: 2/3;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #131313;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
