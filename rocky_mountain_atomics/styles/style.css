@@ -285,6 +285,7 @@ h2 {
     color: #2292A4;
     font-size: 40px;
     margin: 50px;
+    text-align: center;
 }
 
 .sub-text-page1-1, .sub-text-page1-2, .sub-text-page1-3 {
@@ -292,6 +293,7 @@ h2 {
     color: #F5EFED;
     font-size: 25px;
     margin: 25px;
+    text-align: center;
 }
 
 
@@ -359,6 +361,7 @@ h3 {
     margin: 25px;
     padding-bottom: 80px;
     padding-top: 80px;
+    text-align: center;
 }
 
 h4 {
